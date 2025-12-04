@@ -16,7 +16,7 @@ This **MelonLoader** mod removes the pixelation/censorship in the indie-horror g
    Download and install [MelonLoader](https://melonwiki.xyz/#/README) for HORSES, either by using the MelonLoader installer or zipping the MelonLoader files directly into the game directory.
 
 2. **Download the Mod**:
-   - Go to the [Releases](https://github.com/yourusername/yourrepo/releases) tab.
+   - Go to the [Releases](https://github.com/inertaert/HORSES_nudity_patch/releases) tab.
    - Download the latest version of the `nudity_patch.zip` file.
 
 3. **Install the Mod**:
