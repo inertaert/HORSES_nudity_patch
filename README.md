@@ -8,16 +8,16 @@ This **MelonLoader** mod removes the pixelation/censorship in the indie-horror g
 
 ## **Installation**
 ### **Requirements**
-- A legitimate copy of [HORSES](https://www.gog.com/en/game/horses).
-- [MelonLoader](https://melonwiki.xyz/#/) installed for the game.
+- A copy of [HORSES](https://www.gog.com/en/game/horses).
+- The [MelonLoader](https://melonwiki.xyz/#/) Unity Engine Mod Loader.
 
 ### **Steps**
 1. **Install MelonLoader**:
-   Download and install [MelonLoader](https://melonwiki.xyz/#/README) for HORSES.
+   Download and install [MelonLoader](https://melonwiki.xyz/#/README) for HORSES, either by using the MelonLoader installer or zipping the MelonLoader files directly into the game directory.
 
 2. **Download the Mod**:
    - Go to the [Releases](https://github.com/yourusername/yourrepo/releases) tab.
-   - Download the latest `nudity_patch.zip` file.
+   - Download the latest version of the `nudity_patch.zip` file.
 
 3. **Install the Mod**:
    - Extract the `.zip` file.
@@ -33,6 +33,7 @@ This **MelonLoader** mod removes the pixelation/censorship in the indie-horror g
 ## **Uninstallation**
 1. Delete `nudity_patch.dll` from the `HORSES\Mods\` folder.
 
+2. (Optional:) Uninstall MelonLoader.
 ---
 
 ## **Building from Source**
@@ -69,12 +70,5 @@ This **MelonLoader** mod removes the pixelation/censorship in the indie-horror g
 
 ## **License**
 This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## **Disclaimer**
-- This mod is for personal use only.
-- The author is not responsible for any issues caused by this mod.
-- Always back up your game files before installing mods.
 
 ---
