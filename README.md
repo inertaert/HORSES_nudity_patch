@@ -34,6 +34,8 @@ This **MelonLoader** mod removes the pixelation/censorship in the indie-horror g
      by inertaert
      Assembly: nudity_patch.dll
      ```
+6. **That's it, play the game!**
+   - (But if pixelation persists, then something went wrong.)
 
 ---
 
@@ -87,5 +89,6 @@ This **MelonLoader** mod removes the pixelation/censorship in the indie-horror g
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
+
 
 
