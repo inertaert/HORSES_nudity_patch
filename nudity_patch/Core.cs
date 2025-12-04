@@ -1,7 +1,7 @@
 ﻿using MelonLoader;
 using HarmonyLib;
 
-[assembly: MelonInfo(typeof(nudity_patch.Core), "Nudity Patch", "1.0.0", "", null)]
+[assembly: MelonInfo(typeof(nudity_patch.Core), "Nudity Patch", "1.0.0", "inertaert", null)]
 [assembly: MelonGame("Santa Ragione", "Horses")]
 
 namespace nudity_patch
@@ -33,3 +33,4 @@ public static class Patch2
         isActive = false;
     }
 }
+
