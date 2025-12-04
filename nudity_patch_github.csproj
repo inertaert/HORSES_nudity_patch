@@ -1,0 +1,355 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<RootNamespace>nudity_patch</RootNamespace>
+		<LangVersion>default</LangVersion>
+		<IsPackable>false</IsPackable>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<AssemblyName>nudity_patch</AssemblyName>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="Achievements">
+			
+		</Reference>
+		<Reference Include="AmazingAssets.TerrainToMesh">
+			
+		</Reference>
+		<Reference Include="AmplifyImpostors">
+			
+		</Reference>
+		<Reference Include="Assembly-CSharp-firstpass">
+			
+		</Reference>
+		<Reference Include="Assembly-CSharp">
+			
+		</Reference>
+		<Reference Include="Autodesk.Fbx.BuildTestAssets">
+			
+		</Reference>
+		<Reference Include="Autodesk.Fbx">
+			
+		</Reference>
+		<Reference Include="Coffee.UIEffect">
+			
+		</Reference>
+		<Reference Include="Coffee.UIEffect.R">
+			
+		</Reference>
+		<Reference Include="com.playeveryware.eos-Editor.steam.utility">
+			
+		</Reference>
+		<Reference Include="com.playeveryware.eos.core">
+			
+		</Reference>
+		<Reference Include="Fungus">
+			
+		</Reference>
+		<Reference Include="FungusExamples">
+			
+		</Reference>
+		<Reference Include="GalaxyCSharp">
+			
+		</Reference>
+		<Reference Include="GOGGalaxy">
+			
+		</Reference>
+		<Reference Include="GPUInstancer">
+			
+		</Reference>
+		<Reference Include="GrabbitAssembly">
+			
+		</Reference>
+		<Reference Include="Horses">
+			
+		</Reference>
+		<Reference Include="LeanTween">
+			
+		</Reference>
+		<Reference Include="Localization">
+			
+		</Reference>
+		<Reference Include="Menu">
+			
+		</Reference>
+		<Reference Include="NewAssembly">
+			
+		</Reference>
+		<Reference Include="Newtonsoft.Json">
+			
+		</Reference>
+		<Reference Include="Rewired">
+			
+		</Reference>
+		<Reference Include="Rewired_Core">
+			
+		</Reference>
+		<Reference Include="Rewired_Windows">
+			
+		</Reference>
+		<Reference Include="Rewired_Windows_Functions">
+			
+		</Reference>
+		<Reference Include="Sirenix.OdinInspector.Attributes">
+			
+		</Reference>
+		<Reference Include="Sirenix.Serialization.Config">
+			
+		</Reference>
+		<Reference Include="Sirenix.Serialization">
+			
+		</Reference>
+		<Reference Include="Sirenix.Utilities">
+			
+		</Reference>
+		<Reference Include="Unity.Formats.Fbx.Runtime">
+			
+		</Reference>
+		<Reference Include="Unity.Postprocessing.Runtime">
+			
+		</Reference>
+		<Reference Include="Unity.TerrainTools">
+			
+		</Reference>
+		<Reference Include="Unity.TextMeshPro">
+			
+		</Reference>
+		<Reference Include="Unity.Timeline">
+			
+		</Reference>
+		<Reference Include="UnityEngine.AccessibilityModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.AIModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.AndroidJNIModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.AnimationModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.ARModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.AssetBundleModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.AudioModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.ClothModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.ClusterInputModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.ClusterRendererModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.CrashReportingModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.DirectorModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine">
+			
+		</Reference>
+		<Reference Include="UnityEngine.DSPGraphModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.GameCenterModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.GIModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.GridModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.HotReloadModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.ImageConversionModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.IMGUIModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.InputLegacyModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.InputModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.JSONSerializeModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.LocalizationModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.NVIDIAModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.ParticleSystemModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.PerformanceReportingModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.Physics2DModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.PhysicsModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.ProfilerModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.ScreenCaptureModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.SharedInternalsModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.SpriteMaskModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.SpriteShapeModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.StreamingModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.SubstanceModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.SubsystemsModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.TerrainModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.TerrainPhysicsModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.TextCoreFontEngineModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.TextCoreTextEngineModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.TextRenderingModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.TilemapModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.TLSModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UI">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UIElementsModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UIElementsNativeModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UIModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UmbraModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UNETModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UnityAnalyticsModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UnityConnectModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UnityCurlModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UnityTestProtocolModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestAudioModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestTextureModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestWWWModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.VehiclesModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.VFXModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.VideoModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.VirtualTexturingModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.VRModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.WindModule">
+			
+		</Reference>
+		<Reference Include="UnityEngine.XRModule">
+			
+		</Reference>
+		<Reference Include="vhacd">
+			
+		</Reference>
+		<Reference Include="MelonLoader">
+			
+		</Reference>
+		<Reference Include="0Harmony">
+			
+		</Reference>
+
+	</ItemGroup>
+
+	<PropertyGroup>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="Core.cs" />
+	</ItemGroup>
+	
+</Project>
