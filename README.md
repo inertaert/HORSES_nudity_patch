@@ -26,7 +26,13 @@ This **MelonLoader** mod removes the pixelation/censorship in the indie-horror g
 4. **Verify Installation**:
    - Launch the game.
    - Alt-tab out and check for the **MelonLoader console window**.
-   - Ensure "Nudity Patch" appears in the log as successfully loaded.
+   - Ensure "Nudity Patch" appears in the log as successfully loaded:
+  
+     ```plaintext
+     Nudity Patch v1.0.0
+     by inertaert
+     Assembly: nudity_patch.dll
+     ```
 
 ---
 
@@ -72,3 +78,4 @@ This **MelonLoader** mod removes the pixelation/censorship in the indie-horror g
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
+
