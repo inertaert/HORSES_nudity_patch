@@ -1,0 +1,19 @@
+# Build outputs
+/bin/
+/obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+
+# Visual Studio cache files
+*.cache
+*.Up2Date
+
+# NuGet packages
+packages/
+
+# Logs and databases
+*.log
+*.db
